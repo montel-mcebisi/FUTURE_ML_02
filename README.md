@@ -22,7 +22,7 @@ Used a Multinomial Naive Bayes model for baseline text classifications as it wor
 
 The model achieved an overall accuracy of 77% on 9,568 support tickets. It performed best in categories like Purchase (F1-score: 0.89), Access (0.83), and Storage (0.80), showing strong precision and reliable predictions. The model also handled high-volume categories such as Hardware and HR Support reasonably well, with F1-scores of 0.77 and 0.78 respectively. However, performance was weaker for Administrative Rights and Internal Project due to lower recall, indicating the model struggled to identify all instances of these less frequent categories. Overall, the results demonstrate that the NLP classifier is effective for automated ticket categorization, while still having room for improvement on smaller or imbalanced classes.
 
-Finally, Set a Business Logic for Priortiy with "Hardware as our top priority followed by "Access", "Purchase", etc.
+Finally, Set a Business Logic for Priority with "Hardware" as our top priority followed by "Access", "Purchase", etc.
 
 
 
